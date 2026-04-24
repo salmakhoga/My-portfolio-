@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Montserrat', 'Tajawal', sans-serif;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 50px; 
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    max-width: 500px; 
+    width: 90%; 
+
+.profile-img {
+    width: 220px; 
+    height: 220px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 6px solid #e0b494;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
+}
+
+h1 {
+    color: #333;
+    margin: 15px 0 10px 0;
+    font-size: 2.5rem; 
+    font-weight: 700;
+}
+
+.subtitle {
+    color: #555;
+    font-size: 1.2rem; 
+    margin-bottom: 30px;
+    line-height: 1.6; 
+}
+
+.social-icons {
+    margin-bottom: 25px;
+}
+
+.social-icons a {
+    font-size: 28px; 
+    margin: 0 15px;
+    color: #e0b494;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #333;
+    transform: translateY(-5px);
+}
+
+.btn {
+    background-color: #e0b494;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #d19a75;
+    transform: scale(1.05); 
